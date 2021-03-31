@@ -1,0 +1,801 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width:
+	568px) and (-webkit-min-device-pixel-ratio: 2) {
+	.img-ts3d {
+		display: none;
+	}
+	[class*="col-"] {
+		width: 100%;
+	}
+	.ts3d-top {
+		position: absolute;
+	}
+	body {
+		overflow: unset;
+	}
+	.section:nth-child(1) {
+		height: 80px !important;
+	}
+	.section4:nth-child(1) {
+		height: 80px !important;
+	}
+	.section3:nth-child(1) {
+		height: 80px !important;
+	}
+	.section6:nth-child(1) {
+		height: 180px !important;
+	}
+	.section7:nth-child(1) {
+		height: 80px !important;
+	}
+	.section:nth-child(3) {
+		height: auto !important;
+	}
+	.section:nth-child(2) {
+		height: auto !important;
+	}
+	.section:nth-child(5) {
+		height: auto !important;
+	}
+	.section5:nth-child(1) {
+		height: 80px !important;
+	}
+	.section5:nth-child(2) {
+		height: auto;
+	}
+	.section1:nth-child(3) {
+		height: auto;
+	}
+	#fileDiv {
+		margin-bottom: 5% !important;
+		border-bottom-left-radius: 0px !important;
+		border-top-left-radius: 0px !important;
+	}
+	#filedetaillabel {
+		height: auto !important;
+		border-top-right-radius: 0px !important;
+	}
+	#fileDetailsDiv {
+		height: auto !important;
+		margin-bottom: 100px !important;
+		border-bottom-right-radius: 0px !important;
+		border-top-right-radius: 0px !important;
+	}
+	#uploadsnumber {
+		height: auto !important;
+		border-top-left-radius: 0px !important;
+	}
+	.footer {
+		text-align: right !important;
+		width: 100% !important;
+		background-color: #d8dee4 !important;
+		position: unset !important;
+		bottom: 0 !important;
+		height: auto !important;
+	}
+	#viewbutton {
+		margin-top: 8% !important;
+		right: 0 !important;
+		width: 10% !important;
+		margin-right: 20% !important;
+		position: absolute !important;
+	}
+	.miniUploadFile {
+		padding-top: 1% !important;
+	}
+	.vertical-menu {
+		max-height: 55% !important;
+	}
+	.header {
+		height: 50px !important;
+	}
+	.section1:nth-child(1) {
+		height: 80px !important;
+	}
+	.section1:nth-child(2) {
+		height: auto !important;
+	}
+	.materialgrid1 {
+		padding: 0 !important;
+	}
+	.colorbox-container {
+		height: auto !important;
+		margin-top: 2% !important;
+		-webkit-column-count: 3 !important;
+		-moz-column-count: 3 !important;
+		column-count: 3 !important;
+	}
+	.uploading_block td.uploading_radio {
+		width: 10px !important;
+		padding: 0 !important;
+	}
+	#fileData {
+		width: 220px !important;
+	}
+	.materialBoxGrid {
+		width: 320px !important;
+		width: 100% !important;
+	}
+	#imageMaterial {
+		width: 15% !important;
+		height: 40% !important;
+	}
+	#materialDescription {
+		width: 320px !important;
+	}
+	.fileBoxGrid {
+		/* margin-bottom: 100px!important; */
+		height: auto !important;
+	}
+	.pbody {
+		font-size: 50% !important;
+	}
+	.cart_rate {
+		font-size: 90% !important;
+	}
+	#partImage {
+		width: 100% !important;
+		height: 50% !important;
+	}
+	.d-flex {
+		display: -ms-flexbox !important !important;
+		display: inline !important !important;
+	}
+	#removeLabel {
+		display: none !important;
+	}
+	#editLabel {
+		display: none !important;
+	}
+	.section3:nth-child(2) {
+		margin-left: 1% !important;
+	}
+	.howitworksimage {
+		width: 95% !important;
+		height: 50% !important;
+	}
+	.afterOrderemptycart_panel {
+		width: 320px !important;
+		margin-bottom: 100px !important;
+	}
+	.cart_panel {
+		padding: 0% !important;
+		/* margin-bottom: 60px!important; */
+	}
+	.emptycart_panel {
+		margin-bottom: 100px !important;
+	}
+	.finishing {
+		height: auto !important;
+		padding: 0px !important;
+	}
+	#customers {
+		width: 320px !important;
+		overflow-x: scroll !important;
+		white-space: nowrap !important;
+	}
+	.filerow2 {
+		width: 320px !important;
+	}
+	.filerow3 {
+		width: 320px !important;
+	}
+	.messageorder {
+		font-size: 100% !important;
+	}
+	#labelfile {
+		width: 240px !important;
+	}
+	#customerOrderData {
+		margin-top: unset !important;
+		overflow-x: unset !important;
+		position: unset !important;
+		max-height: unset !important;
+	}
+	#orderHeader {
+		background-color: white !important;
+		position: unset !important;
+	}
+	#frame {
+		width: 270px !important;
+		height: 400px !important;
+	}
+	.slider1 {
+		bottom: 100px !important;
+	}
+	#demobtntip:after {
+		content: "demo";
+	}
+	.main {
+		width: 320px !important;
+		overflow-x: scroll !important;
+		white-space: nowrap !important;
+	}
+	.sidenav {
+		height: auto;
+	}
+	#demobtntip2 {
+		display: block;
+	}
+	#demobtntip1 {
+		display: none;
+	}
+	.newuploadbtn {
+		font-size: unset;
+	}
+	.button-group {
+		margin-left: 0px;
+	}
+	.framerow {
+		/* margin-bottom: 80px; */
+		
+	}
+	.mainView {
+		margin-top: 37%;
+	}
+
+	/* 	
+#ctnbtn{
+	
+	margin-top: 15%;
+} */
+	.miniUploadFile {
+		position: unset;
+	}
+	.filePanelList {
+		height: 90px;
+	}
+	.noMaterialMsg {
+		max-width: 300px;
+	}
+	.noMaterialMsg {
+		max-width: 300px;
+	}
+	.materialgrid1 {
+		padding: unset;
+		/* background: #f7f8fa; */
+		border-right: unset;
+		overflow: unset;
+	}
+	.customtable {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 270px;
+		margin-left: 4%;
+		margin-top: 3%;
+	}
+	.section5:nth-child(3) {
+		height: auto;
+	}
+	.section4:nth-child(2) {
+		height: auto;
+	}
+	.table1 {
+		width: 800px;
+	}
+	.thead1 {
+		display: table; /* to take the same width as tr */
+		width: 100%; /* - 17px because of the scrollbar width */
+	}
+	.table2 {
+		width: 1200px;
+	}
+	.thead2 {
+		width: 1200px;
+	}
+	.tbody2 {
+		width: 1200px;
+	}
+	.tr2 {
+		width: 1200px;
+	}
+	.td2 {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		max-width: 120px !important;
+	}
+	.table3 {
+		width: 1080px;
+	}
+	.thead3 {
+		width: 1080px;
+	}
+	.tbody3 {
+		width: 1080px;
+	}
+	.tr3 {
+		width: 1080px;
+	}
+	.td3 {
+		width: 120px !important;
+	}
+	.table4 {
+		width: 500px;
+	}
+	.thead4 {
+		width: 500px;
+	}
+	.tbody4 {
+		width: 500px;
+	}
+	.tr4 {
+		width: 500px;
+	}
+	.td4 {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		text-overflow: ellipsis;
+		max-width: 100px !important;
+	}
+	.table5 {
+		width: 1200px;
+	}
+	.thead5 {
+		width: 1200px;
+	}
+	.tbody4 {
+		width: 1200px;
+	}
+	.tr5 {
+		width: 1200px;
+	}
+	.td5 {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 100px !important;
+		max-width: 100px !important;
+	}
+	#iframePreview {
+		width: auto;
+		/* height: 90%; */
+		height: 425px;
+	}
+	#clipSectionMain {
+		margin-top: 11%;
+		display: none;
+		margin-left: 40%;
+	}
+	#clipSectionMain2 {
+		margin-top: 11%;
+		display: none;
+		margin-left: 30%;
+	}
+	#angleSectionMain {
+		margin-left: 66%;
+		margin-top: 13%;
+		position: absolute;
+		display: none;
+	}
+	#zoom_in_out {
+		text-align: center;
+		left: 0;
+		margin-top: 24%;
+		margin-left: 4%;
+		position: absolute;
+	}
+	#xangle {
+		padding: unset;
+		width: 50%;;
+	}
+	#inset {
+		margin: unset;
+		width: 50px;
+		height: 50px;
+		margin-left: 25%;
+		margin-bottom: 8%;
+	}
+	#myCheck {
+		margin-bottom: 11%;
+	}
+	.clearbtn {
+    position: absolute;
+    margin-left: 58%;
+    font-size: 90%;
+    margin-top: 0%;
+}
+}
+
+/* /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+/* @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+   
+  [class*="col-"]{
+  		width: 100%;
+ 	}
+  
+  .ts3d-top{
+      position: absolute;
+  }
+  
+  
+  body{
+  		overflow: auto !important;
+  }
+  
+  .section:nth-child(1) {
+      height:200px;
+    }
+
+}  */
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	667px) and (-webkit-min-device-pixel-ratio: 2) {
+	[class*="col-"] {
+		width: 100% !important;
+	}
+	#inset {
+		margin: unset;
+		width: 50px;
+		height: 50px;
+		margin-left: 25%;
+		margin-bottom: 8%;
+	}
+	#myCheck {
+		margin-bottom: 11%;
+	}
+	.ts3d-top {
+		position: absolute !important;
+	}
+	body {
+		overflow: auto !important !important;
+	}
+	.section:nth-child(1) {
+		height: 125px !important;
+	}
+	.section4:nth-child(1) {
+		height: 125px !important;
+	}
+	.section1:nth-child(1) {
+		height: 80px !important;
+	}
+	.section7:nth-child(1) {
+		height: 125px !important;
+	}
+	.section3:nth-child(1) {
+		height: 125px !important;
+	}
+	.section6:nth-child(1) {
+		height: 125px !important;
+	}
+	.colorbox-container {
+		height: 100px !important;
+		margin-top: 2% !important;
+		-webkit-column-count: 3 !important;
+		-moz-column-count: 3 !important;
+		column-count: 6 !important;
+	}
+	.section5:nth-child(1) {
+		height: 80px !important;
+	}
+	#partImage {
+		width: 100% !important;
+		height: 50% !important;
+	}
+	.d-flex {
+		display: -ms-flexbox !important !important;
+		display: inline !important !important;
+	}
+	#removeLabel {
+		display: none !important;
+	}
+	#editLabel {
+		display: none !important;
+	}
+	.section3:nth-child(2) {
+		margin-left: 1% !important;
+	}
+	.howitworksimage {
+		width: 95% !important;
+		height: 50% !important;
+	}
+	.afterOrderemptycart_panel {
+		width: 375px !important;
+		margin-bottom: 100px !important;
+	}
+	.cart_panel {
+		padding: 0% !important;
+		margin-bottom: 60px !important;
+	}
+	.emptycart_panel {
+		margin-bottom: 100px !important;
+	}
+	#customers {
+		width: 375px !important;
+		overflow-x: scroll !important;
+		white-space: nowrap !important;
+	}
+	.filerow2 {
+		width: 375px !important;
+	}
+	.filerow3 {
+		width: 375px !important;
+	}
+	.messageorder {
+		font-size: 100% !important;
+	}
+	#customerOrderData {
+		margin-top: unset !important;
+		overflow-x: unset !important;
+		position: unset !important;
+		max-height: unset !important;
+	}
+	#orderHeader {
+		background-color: white !important;
+		position: unset !important;
+	}
+	#frame {
+		width: 270px !important;
+		height: 400px !important;
+	}
+	.slider1 {
+		bottom: 100px !important;
+	}
+	.sidenav {
+		height: auto;
+	}
+	#demobtntip2 {
+		display: block;
+	}
+	#demobtntip1 {
+		display: none;
+	}
+	.clearbtn {
+    position: absolute;
+    margin-left: 58%;
+    font-size: 90%;
+    margin-top: 0%;
+}
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width:
+	736px) and (-webkit-min-device-pixel-ratio: 3) {
+	[class*="col-"] {
+		width: 100% !important;
+	}
+	#inset {
+		margin: unset;
+		width: 50px;
+		height: 50px;
+		margin-left: 25%;
+		margin-bottom: 8%;
+	}
+	#myCheck {
+		margin-bottom: 11%;
+	}
+	.ts3d-top {
+		position: absolute !important;
+	}
+	body {
+		overflow: auto !important !important;
+	}
+	.section:nth-child(1) {
+		height: 15% !important;
+	}
+	.section4:nth-child(1) {
+		height: 15% !important;
+	}
+	.section7:nth-child(1) {
+		height: 15% !important;
+	}
+	.section6:nth-child(1) {
+		height: 15% !important;
+	}
+	.section3:nth-child(1) {
+		height: 15% !important;
+	}
+	.section1:nth-child(1) {
+		height: 15% !important;
+	}
+	.section5:nth-child(1) {
+		height: 80px !important;
+	}
+	.d-flex {
+		display: -ms-flexbox !important !important;
+		display: inline !important !important;
+	}
+	#removeLabel {
+		display: none !important;
+	}
+	#editLabel {
+		display: none !important;
+	}
+	.section3:nth-child(2) {
+		margin-left: 1% !important;
+	}
+	.howitworksimage {
+		width: 95% !important;
+		height: 50% !important;
+	}
+	.afterOrderemptycart_panel {
+		width: 414px !important;
+		margin-bottom: 100px !important;
+	}
+	.cart_panel {
+		padding: 0% !important;
+		margin-bottom: 60px !important;
+	}
+	.emptycart_panel {
+		margin-bottom: 100px !important;
+	}
+	#customers {
+		width: 414px !important;
+		overflow-x: auto !important;
+		white-space: nowrap !important;
+	}
+	.filerow2 {
+		width: 414px !important;
+	}
+	.filerow3 {
+		width: 414px !important;
+	}
+	.messageorder {
+		font-size: 100% !important;
+	}
+	#orderHeader {
+		background-color: white !important;
+		position: unset !important;
+	}
+	#customerOrderData {
+		margin-top: unset !important;
+		overflow-x: unset !important;
+		position: unset !important;
+		max-height: unset !important;
+	}
+	#frame {
+		width: 340px !important;
+		height: 400px !important;
+	}
+	.slider1 {
+		bottom: 100px !important;
+	}
+	.clearbtn {
+    position: absolute;
+    margin-left: 58%;
+    font-size: 90%;
+    margin-top: 0%;
+}
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width:
+	812px) and (-webkit-min-device-pixel-ratio: 3) {
+	[class*="col-"] {
+		width: 100% !important;
+	}
+	#inset {
+		margin: unset;
+		width: 50px;
+		height: 50px;
+		margin-left: 25%;
+		margin-bottom: 8%;
+	}
+	#myCheck {
+		margin-bottom: 11%;
+	}
+	.ts3d-top {
+		position: absolute !important;
+	}
+	body {
+		overflow: auto !important !important;
+	}
+	.section:nth-child(1) {
+		height: 125px !important;
+	}
+	.section4:nth-child(1) {
+		height: 125px !important;
+	}
+	.section1:nth-child(1) {
+		height: 80px !important;
+	}
+	.section3:nth-child(1) {
+		height: 125px !important;
+	}
+	.section7:nth-child(1) {
+		height: 125px !important;
+	}
+	.section6:nth-child(1) {
+		height: 125px !important;
+	}
+	.d-flex {
+		display: -ms-flexbox !important !important;
+		display: inline !important !important;
+	}
+	#removeLabel {
+		display: none !important;
+	}
+	#editLabel {
+		display: none !important;
+	}
+	.section3:nth-child(2) {
+		margin-left: 1% !important;
+	}
+	.howitworksimage {
+		width: 95% !important;
+		height: 50% !important;
+	}
+	.afterOrderemptycart_panel {
+		width: 375px !important;
+		margin-bottom: 100px !important;
+	}
+	.cart_panel {
+		padding: 0% !important;
+		margin-bottom: 60px !important;
+	}
+	.emptycart_panel {
+		margin-bottom: 100px !important;
+	}
+	#customers {
+		width: 375px !important;
+		overflow-x: scroll !important;
+		white-space: nowrap !important;
+	}
+	.filerow2 {
+		width: 375px !important;
+	}
+	.filerow3 {
+		width: 375px !important;
+	}
+	.messageorder {
+		font-size: 100% !important;
+	}
+	#orderHeader {
+		background-color: white !important;
+		position: unset !important;
+	}
+	#customerOrderData {
+		margin-top: unset !important;
+		overflow-x: unset !important;
+		position: unset !important;
+		max-height: unset !important;
+	}
+	#frame {
+		width: 270px !important;
+		height: 400px !important;
+	}
+	.slider1 {
+		bottom: 100px !important;
+	}
+	.clearbtn {
+    position: absolute;
+    margin-left: 58%;
+    font-size: 90%;
+    margin-top: 0%;
+}
+
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width
+	: 1024px) {
+	#inset {
+		margin: unset;
+		width: 50px;
+		height: 50px;
+		margin-left: 25%;
+		margin-bottom: 8%;
+	}
+	#myCheck {
+		margin-bottom: 11%;
+	}
+	#frame {
+		width: 500px !important;
+		height: 400px !important;
+	}
+}
+
+}
