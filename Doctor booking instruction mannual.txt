@@ -1,0 +1,22 @@
+Follow this step before run the application
+
+
+
+
+1. ) Create Rapidquote_FS folder on server to store petiont report
+
+2. ) In Rapidquote_FS folder Create materialImages  Folder 
+<Context docBase="F:\apache-tomcat-9.0.10\Rapidquote_FS\materialImages" path="/Rapidquote/mimages"/>
+
+3.) Add this context into server.xml  with server folder where you have  created
+"
+4) Create Mysql Database with name "appointment" all db related info in application.properties
+
+5)after creating db you have to run project 
+
+6)after complete run project please check database and fill the supplier table (Admin Site configuration )
+
+7)For accessing doctor pannel use following link "http://localhost:8080/Rapidquote/admin/" please check your port no.
+
+8) for login doctor pannel need username and password. user name: info@doctor.com   password: 123 that are enterd into supplier table
+run the query provide into doctor.sql
